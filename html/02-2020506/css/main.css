@@ -1,0 +1,45 @@
+*{
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner{
+    height: 100px;
+    width: 700px;
+    background-color: blueviolet;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    margin: auto;
+
+}
+.container{
+    display: flex;
+    height: 750px;
+    width: 700px;
+    background-color: thistle;
+    margin: auto;
+}
+.left{
+    height: 200px;
+    width: 30%;
+
+    
+}
+image{
+    padding: 10px;
+}
+ul{
+    list-style: none;
+}
+.right{
+    width: 70%;
+}
+.footer{
+    height: 100px;
+    width: 700px;
+    background-color: tomato;
+    margin: auto;
+}

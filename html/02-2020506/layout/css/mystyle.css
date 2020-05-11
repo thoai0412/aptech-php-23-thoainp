@@ -1,0 +1,16 @@
+.banner1{
+    height: 100px;
+    width: 900px;
+    background-color: blue;
+    padding: 30px;
+    text-align: center;
+}
+.continer{
+    display: flex;
+
+}
+.left{
+    height: auto;
+    width: 30%;
+    background-color: crimson;
+}

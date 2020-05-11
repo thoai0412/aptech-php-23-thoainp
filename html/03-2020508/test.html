@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title></title>
+        <style>
+*{
+    box-sizing: border-box;
+}
+body{
+    background: #f6f5f7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+    font-family: Arial, sans-serif,
+    height: 100vh;
+    margin: -20px 0 50px;
+}
+h1{
+    font-weight: blod; /* chu sat vao voi nhau hon*/
+    margin: 0;
+}
+span{
+    font-size: 12px;
+}
+p{
+    font-size: 14px;
+    font-weight: 100;
+    line-height: 20px; 
+    letter-spacing: 0.5px; /* gian cach chu*/
+}
+span {
+	font-size: 12px;
+}
+a {
+	color: #333;
+	font-size: 14px;
+	text-decoration: none;
+	margin: 15px 0;
+}
+button{
+    border-radius: 20px;
+    border: 1px solid #FF4b2b; /* kich thuoc kieu bo mau sac*/
+    background-color:  #FF4b2b;
+    color: #FFFFFF; /* mau chu*/
+    font-size: 12px;
+    font-weight: bold; /*in dam chu*/
+    padding: 12px 45px; /* tăng kích thước button*/
+    letter-spacing: 1px; /*dai them 1 px*/
+    text-transform: uppercase; /*viet hoa tat ca*/
+    transition: transform 80ms ease-in;
+}
+button:active {
+	transform: scale(0.95);
+}
+button:focus {
+	outline: none; /*tat vien xanh khi nhan vao*/
+}
+form {
+	background-color: #FFFFFF;
+	align-items: center; /*can giua*/
+	justify-content: center;
+    display: flex;  /*xep deu nhau*/
+    flex-direction: column; /* xep theo hang doc*/
+	padding: 0 50px;
+	height: 100%;
+    text-align: center;
+
+}
+input{ /*bien doi form*/
+    background-color:#eee;
+    border: none; /*bo vien*/
+    padding:12px 15px; /*thay doi kich thuoc*/
+    margin: 8px 0px;
+    width: 100%; /* chieu dai*/
+}
+.container{
+    background-color: #FF4B2B;
+    border-radius: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25), 
+			0 10px 10px rgba(0,0,0,0.22);
+    position: relative;
+    overflow: hidden;
+    width: 668px;
+	max-width: 100%;
+	min-height: 480px;
+}
+.form-container { 
+	position: absolute; /*di chuyen vi tri sang trai*/
+	top: 0;
+	height: 100%;
+	transition: all 0.6s ease-in-out;
+}
+
+
+.overlay{
+	position:absolute;
+    left:500px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	padding: 0 40px;
+	text-align: center;
+	top: 0;
+	height: 500px;
+    width: 50%;
+}
+
+.social-container { /*can chinh create account vs cac thu nhin de hon*/
+	margin: 20px 0;
+}
+
+.social-container a {
+	border: 1px solid #DDDDDD;
+	border-radius: 50%;
+	display: inline-flex;
+	justify-content: center;
+	align-items: center;
+	margin: 0 5px;
+	height: 40px;
+	width: 40px;
+}
+
+        </style>
+    </head>
+    <body>
+        <div class="container" id="container">
+            <div class="form-container sign-up-container">
+                <form action="#">
+                    <h1>Create Account</h1>
+                    <div class="social-container">
+                        <a href="#" class="social"><i class="fab fa-facebook-f"></i>F</a>
+                        <a href="#" class="social"><i class="fab fa-google-plus-g">G+</i></a>
+                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i>in</a>
+                    </div>
+                    <span>or use your email for registration</span>
+                    <input type="text" placeholder="Name" />
+                    <input type="email" placeholder="Email" />
+                    <input type="password" placeholder="Password" />
+                    <button>Sign Up</button>
+                </form>
+                
+            </div>            
+            </div>
+            <div class="overlay">
+                <h1>Hello, Friend!</h1>
+                <p>Enter your personal details and start journey with us</p>
+            </div>  
+
+    </body>
+</html>

@@ -1,0 +1,12 @@
+pwd //xac dinh dang o dau
+ls
+cd //ten thu muc
+cd ../ lui lai
+mkdir //tao folder
+touch //tao file
+explorer
+rm //remove
+cp //copy
+mv //ten file //ten file can doi or thu muc
+mv //ten file //ten thu muc can chuyen
+open ~/Desktop
