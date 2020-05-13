@@ -1,8 +1,19 @@
-.Header,
-.Footer {
-  height: 100px;
+.container1{
+  background-color: grey;
 }
-
-.Content {
-  height: 200px;
+.container2{
+  background-color: grey;
+  height: 500px;
+}
+.container3{
+  background-color: grey;
+}
+h1{
+  text-align: center;
+}
+h4{
+  text-align: center;
+}
+p{
+  text-align: center;
 }
