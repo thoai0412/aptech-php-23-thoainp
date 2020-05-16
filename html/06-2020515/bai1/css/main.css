@@ -1,0 +1,20 @@
+body{
+    text-align: center;
+    height: 100hv;
+}
+.header{
+    height: 400px;
+}
+.logo{
+    position:relative;
+    top:300px;
+}
+.container2{
+    height: 10%;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footer{
+    margin-top: 50px;
+}
