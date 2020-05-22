@@ -1,0 +1,38 @@
+.div{
+    display: flex;
+    &-mot{
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+    &-hai{
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+    &-ba{
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+}
+@media only screen and (min-width:1200){
+    .div{
+        display: flex;
+        &-mot{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+        }
+        &-hai{
+            width: 200px;
+            height: 200px;
+            background-color: black;
+        }
+        &-ba{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+        }
+    }
+}
