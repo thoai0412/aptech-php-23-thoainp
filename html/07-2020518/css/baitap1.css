@@ -1,0 +1,43 @@
+.div-mot {
+  background-color: blue;
+  height: 200px;
+}
+
+.div-hai {
+  background-color: red;
+  height: 200px;
+}
+
+.div-ba {
+  background-color: green;
+  height: 200px;
+}
+
+.div-bon {
+  background-color: indigo;
+  height: 200px;
+}
+
+.div-nam {
+  height: 200px;
+  background-color: lightblue;
+}
+
+.div-sau {
+  height: 200px;
+  background-color: lightcoral;
+}
+
+.div-bay {
+  height: 200px;
+  background-color: lightseagreen;
+}
+.col-md-4{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+.col-md-8{
+  padding-right: 0px;
+  padding-left: 0px;
+}
+/*# sourceMappingURL=baitap1.css.map */

@@ -3,11 +3,11 @@ body{
     height: 100hv;
 }
 .header{
-    height: 400px;
+    height: 300px;
 }
 .logo{
     position:relative;
-    top:300px;
+    top:200px;
 }
 .container2{
     height: 10%;

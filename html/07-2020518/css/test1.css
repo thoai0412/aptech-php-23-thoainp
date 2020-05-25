@@ -1,0 +1,47 @@
+.div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.div-mot {
+  width: 200px;
+  height: 200px;
+  background-color: green;
+}
+
+.div-hai {
+  width: 200px;
+  height: 200px;
+  background-color: blue;
+}
+
+.div-ba {
+  width: 200px;
+  height: 200px;
+  background-color: yellow;
+}
+
+@media only screen and (min-width: 1200) {
+  .div {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+  }
+  .div-mot {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+  }
+  .div-hai {
+    width: 200px;
+    height: 200px;
+    background-color: black;
+  }
+  .div-ba {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+  }
+}
+/*# sourceMappingURL=test1.css.map */

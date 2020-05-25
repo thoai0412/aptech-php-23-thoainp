@@ -5,7 +5,7 @@ body{
     height: 10%;
 }
 .container2{
-    height: 80%; 
+    height: 90%; 
     margin-top: 100px;
 }
 
@@ -18,7 +18,6 @@ body{
     box-sizing:none;
     width:100%;
     padding: 10px;
-
 }
 a{
     text-decoration: none;

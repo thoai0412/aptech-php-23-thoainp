@@ -1,0 +1,30 @@
+.div{
+    &-mot{
+        background-color: blue;
+        height: 200px;
+    }
+    &-hai{
+        background-color: red;
+        height: 200px;
+    }
+    &-ba{
+        background-color: green;
+        height: 200px;
+    }
+    &-bon{
+        background-color: indigo;
+        height: 200px;
+    }
+    &-nam{
+        height: 200px;
+        background-color: lightblue;
+    }
+    &-sau{
+        height: 200px;
+        background-color: lightcoral;
+    }
+    &-bay{
+        height: 200px;
+        background-color: lightseagreen;
+    }
+}
