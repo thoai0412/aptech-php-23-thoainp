@@ -1,0 +1,24 @@
+.nav-item{
+    padding-right: .5rem;
+    padding-left: .5rem;
+    text-decoration: none;
+}
+a:hover{
+    color: white;
+}
+a {
+    text-decoration: none !important;
+}
+.float-right{
+    float: right !important;
+}
+.div1{
+    height: 80px;
+}
+.featurette-divider{
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.featurette-heading{
+    margin-top: 112px;
+}
