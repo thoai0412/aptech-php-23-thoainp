@@ -1,0 +1,55 @@
+.center1{
+    margin-bottom: auto;
+    margin-top: auto;
+    color:#7f7f7f;
+}
+ul{
+   list-style: none;
+   margin-bottom: 0rem;
+}
+.ul1{
+    margin-bottom: 0px;
+}
+.menu-1{
+    color: #888888;
+}
+.hr1{
+    margin-top: 1px;
+}
+.card-1{
+    background-image: url(../images/1-4.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+}
+.card-2{
+    background-image: url(../images/2-4.jpg);
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+    
+}
+
+.card-3{
+    margin-left: 18px;
+}
+.container-1{
+    margin-top: 10px;
+}
+
+.card-body{
+    margin-top: 0px;
+}
+.anh123{
+    height: 200px;
+}
+.card-t1{
+    margin-top: 130px;
+}
+
+
+footer{
+    padding-left: 50px;
+}

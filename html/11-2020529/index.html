@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+
+</head>
+<body>
+    <div id="div1">
+        <H1>kin dep trai</H1>
+        <button onclick="loadDoc()">bam cai nhe</button>
+    </div>
+    <script>
+        function loadDoc(){
+            var xhttp = new XMLHttpRequest();
+            xhttp.onreadystatechange = function(){
+                if (this.readyState == 4 && this.status == 200){
+                    document.getElementById("div1").innerHTML = this.responseText;
+                }
+            };
+            xhttp.open("GET","kindeptrai.txt", true);
+            xhttp.send();
+        }
+    </script>
+</body>
+</html>
+
+<!--   function turn() {
+    const image = document.getElementById("bong2");
+    
+    if (image.src.match("bulbon")) {
+      image.src = "pic_bulboff.gif";
+    } else {
+      image.src = "pic_bulbon.gif";
+    }
+  } -->
