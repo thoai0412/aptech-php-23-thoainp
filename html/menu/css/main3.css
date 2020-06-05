@@ -1,0 +1,57 @@
+.div-anh1{
+    background-image:url(../images/anh1.jpg);
+    height: 300px;
+    width: 100%;
+    color: white;
+}
+
+.anh-2{
+    width: 100%;
+    padding-left: 0px;
+}
+.anh-3{
+    width: 100%;
+    padding-right: 0px;
+}
+
+.anh-4{
+    width: 100%;
+    padding-left: 0px;
+}
+.tex-main{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+section{
+    background-image:url(../images/anh2.jpg) ;
+}
+.mb-1{
+    background-color: green;
+}
+.mb-3{
+    background-color: red;
+    width: 200px;
+}
+.h3-color{
+    color: white;
+    padding-bottom: 10px;
+}
+.logo{
+    color: black;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.btn-si{
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.logo{
+    padding-left: 15px;
+}
+.sig-in{
+    padding-right: 15px;
+    
+}
+.jumbotron{
+    margin-bottom: 0px;
+}
