@@ -35,6 +35,7 @@ $products=[
 <th>Ten</th>
 <th>Gia</th>
 <th>NSX</th>
+<th>STT</th>
 </tr>
 </thead>
 <tbody>

@@ -1,0 +1,14 @@
+.menu2{
+    width: 100px;
+}
+.button1{
+    border:0;
+    border:none; border-radius:4px; -moz-border-radius:4px;
+}
+
+.btn:focus, .btn.focus {
+    outline: 0;
+    box-shadow: white;
+    border: white;
+}
+button { outline: 0; }
