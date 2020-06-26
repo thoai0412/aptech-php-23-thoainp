@@ -1,0 +1,14 @@
+|-- demo_mvc
+    |-- assets
+        |-- fonts
+        |-- images
+        |-- javascripts
+        |-- stylesheets
+    |-- controllers
+    |-- models
+    |-- views
+        |-- layouts
+            |-- application.php
+    |-- connection.php
+    |-- index.php
+    |-- routes.php
