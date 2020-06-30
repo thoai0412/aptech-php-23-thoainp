@@ -22,3 +22,4 @@ class connguoi extends dongvat{
 
 $concho = new concho();
 $concho->run();
+// có các biến, thuộc tính và các phương thức hành động sự kiện mà trình bên tập muốn thực thi
