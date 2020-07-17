@@ -14,8 +14,3 @@
     </div>
   </div>
 </div>
-<form action="{{route('users.create')}}" method="get">
-    <button type="submit" class="btn btn-info text-uppercase font-weight-bold rounded-0">
-         create a new user
-    </button>
-</form>
