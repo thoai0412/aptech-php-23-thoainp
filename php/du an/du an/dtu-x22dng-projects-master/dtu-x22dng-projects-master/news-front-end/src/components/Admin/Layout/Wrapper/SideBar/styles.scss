@@ -1,0 +1,14 @@
+.Side-Bar {
+  // position: fixed;
+  & a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+  & .active {
+    & li {
+      font-style: normal;
+      font-weight: bold;
+    }
+  }
+}

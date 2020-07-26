@@ -1,0 +1,21 @@
+.Error {
+  position: fixed;
+  z-index: 500;
+  background-color: white;
+  width: 30%;
+  padding: 2rem;
+  top: 15%;
+  box-sizing: border-box;
+  transition: all 0.3s ease-out;
+  &__title {
+    border-bottom: 0.2rem solid #ccc;
+    text-transform: uppercase;
+    padding-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+  &__content {
+    padding: 1rem 0;
+  }
+}

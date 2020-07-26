@@ -1,0 +1,47 @@
+.Not-Found-Page {
+  text-align: center;
+}
+
+.Not-Found-Page-logo {
+  -webkit-animation: Not-Found-Page-logo-spin infinite 20s linear;
+          animation: Not-Found-Page-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.Not-Found-Page-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.Not-Found-Page-title {
+  font-size: 1.5em;
+}
+
+.Not-Found-Page-intro {
+  font-size: large;
+}
+
+@-webkit-keyframes Not-Found-Page-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+
+@keyframes Not-Found-Page-logo-spin {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+/*# sourceMappingURL=styles.css.map */

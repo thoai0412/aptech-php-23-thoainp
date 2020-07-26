@@ -1,0 +1,234 @@
+@import '../../node_modules/bootstrap/scss/functions';
+@import '../../node_modules/bootstrap/scss/variables';
+$grid-breakpoints: (
+  // Extra small screen / phone
+    xs: 0,
+  // Small screen / phone
+    sm: 576px,
+  // Medium screen / tablet
+    md: 768px,
+  // Large screen / desktop
+    lg: 992px,
+  // Extra large screen / wide desktop
+    xl: 1200px,
+  // Extra Extra Large
+    xxl: 1600px
+);
+@import '../../node_modules/bootstrap/scss/bootstrap';
+@import './Client/client';
+@import './Admin/admin';
+@import './Utilities/button';
+@import './Utilities/responsive';
+
+:root {
+  --yellow-cz: #fef234;
+  --gray-bt: #dee2e6;
+  --height-top-sm: 12vw;
+  --height-top-md: 8vw;
+  --height-top-lg: 6.5vw;
+  --height-top-xl: 5vw;
+}
+
+html {
+  height: 100vh;
+  font-size: 62.5%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.Default {
+  &--font {
+    &-size {
+      &-1-3 {
+        font-size: 1.3rem;
+      }
+      &-2 {
+        font-size: 2rem;
+      }
+    }
+  }
+}
+
+.btn,
+.form-control {
+  font-size: 1.5rem;
+}
+
+.Scroll {
+  &--height {
+    @include media-breakpoint-up(lg) {
+      height: calc(var(--height-top-xl) / 2) !important;
+    }
+  }
+  &--padding-top {
+    @include media-breakpoint-up(lg) {
+      padding-top: calc(var(--height-top-xl) / 1.5) !important;
+    }
+  }
+  &--font-size {
+    @include media-breakpoint-up(md) {
+      font-size: 1.5rem;
+    }
+  }
+  &__not {
+    padding-top: var(--height-top-xl) !important;
+  }
+}
+
+.bg-yellow-cz-custom {
+  background-color: var(--yellow-cz) !important;
+}
+.text-yellow-cz-custom {
+  color: var(--yellow-cz) !important;
+}
+
+.border-yellow-cz-custom {
+  border-color: var(--yellow-cz) !important;
+}
+
+.cursor {
+  &-pointer {
+    cursor: pointer !important;
+  }
+  &-not-allowed {
+    cursor: not-allowed !important;
+  }
+}
+
+.border-style-custom {
+  border-radius: 5px 5px 0 0;
+  border-top: 3px solid #ccc !important;
+}
+
+.custom-file-label::after {
+  height: 100%;
+}
+
+.Post-form {
+  &__create {
+    &--in {
+      animation: fadeIn 1s;
+    }
+  }
+  &__notice--height {
+    height: 1rem;
+  }
+  &__image {
+    & .figure {
+      width: 200px;
+
+      display: flex;
+      flex-direction: column;
+
+      & img {
+        width: 80%;
+        margin: 0 auto;
+      }
+    }
+  }
+}
+
+.Help__Text {
+  &--height {
+    height: 2rem;
+  }
+}
+
+.login {
+  &__form {
+    width: 50%;
+    &__notice {
+      &__failed {
+        &--hidden {
+          visibility: hidden;
+        }
+        &--visible {
+          animation: transform-text-color 1s;
+          visibility: visible;
+        }
+      }
+      &--height {
+        height: 1rem;
+      }
+    }
+    &__button {
+      &:not(:disabled) {
+        animation: transform-scale-size 0.5s;
+      }
+      &:disabled {
+        animation: transform-scale-size-smaller 0.5s;
+        cursor: not-allowed;
+      }
+    }
+  }
+}
+
+@keyframes transform-text-color {
+  0% {
+    color: $red;
+  }
+  25% {
+    color: $black;
+  }
+  50% {
+    color: $red;
+  }
+  75% {
+    color: $black;
+  }
+  100% {
+    color: $red;
+  }
+}
+
+@keyframes transform-scale-size {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes transform-scale-size-smaller {
+  0% {
+    transform: scale(1);
+  }
+  60% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+.Image {
+  &--filter {
+    filter: brightness(50%);
+  }
+}

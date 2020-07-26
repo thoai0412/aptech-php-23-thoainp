@@ -1,0 +1,10 @@
+.Tree-View {
+  & a {
+    font-style: italic;
+    &.active {
+      font-style: normal;
+      font-weight: bolder;
+      text-transform: uppercase;
+    }
+  }
+}

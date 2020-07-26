@@ -1,0 +1,38 @@
+.Admin {
+  height: 100vh !important;
+  padding-top: 72px;
+}
+
+.Admin__Wrapper__List:hover {
+  background-color: var(--light);
+}
+
+.Admin__Wrapper__List div {
+  width: 100%;
+  border-right: 1px solid #dee2e6;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 5px 0;
+  overflow: hidden;
+}
+
+.Admin__Wrapper__List div:first-child {
+  width: 20%;
+}
+
+.Admin__Wrapper__List div:last-child {
+  width: 35%;
+  border-right: none;
+}
+
+.Admin__Wrapper__List__Header {
+  font-weight: bold;
+}
+/*# sourceMappingURL=styles.css.map */

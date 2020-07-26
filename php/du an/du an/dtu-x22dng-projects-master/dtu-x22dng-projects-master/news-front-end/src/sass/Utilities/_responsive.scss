@@ -1,0 +1,205 @@
+@include media-breakpoint-up(sm) {
+  body {
+    font-size: 1.4rem !important;
+    padding-top: var(--height-top-sm) !important;
+  }
+  .Client {
+    &__Form {
+      &__form {
+        &--width {
+          width: 75%;
+        }
+      }
+    }
+    &__Navigation-Bar {
+      height: var(--height-top-sm) !important;
+    }
+    &__Brand__Name {
+      font-size: 1.6rem !important;
+    }
+    &__Carousel__Visited {
+      &--slogan {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+      }
+      &__Ads {
+        & img {
+          width: 75% !important;
+        }
+      }
+    }
+    &__Footer {
+      &__Text-Bottom {
+        font-size: 1.1rem;
+      }
+      &__top {
+        &--background-image {
+          min-height: 200px;
+        }
+      }
+    }
+  }
+  .Contact-Content {
+    height: 400px;
+  }
+}
+
+@include media-breakpoint-up(md) {
+  body {
+    font-size: 1.3rem !important;
+    padding-top: var(--height-top-md) !important;
+  }
+  .Client {
+    &__Form {
+      &__form {
+        &--width {
+          width: 65%;
+        }
+      }
+    }
+    &__Navigation-Bar {
+      height: var(--height-top-md) !important;
+    }
+    &__Brand__Name {
+      font-size: 1.5rem !important;
+    }
+    &__Carousel__Visited {
+      &--slogan {
+        position: absolute;
+        top: 60%;
+        left: 10%;
+      }
+      &__Login-Form {
+        // height: 100%;
+      }
+      &__Ads {
+        & img {
+          width: 75% !important;
+        }
+      }
+    }
+    &__Footer {
+      &__Text-Bottom {
+        font-size: 1.1rem;
+      }
+      &__top {
+        &--background-image {
+          min-height: 300px;
+        }
+      }
+    }
+  }
+  .Contact-Content {
+    height: 400px;
+  }
+}
+@include media-breakpoint-up(lg) {
+  body {
+    font-size: 1.4rem !important;
+    padding-top: var(--height-top-lg) !important;
+  }
+  .Client {
+    &__Form {
+      &__form {
+        &--width {
+          width: 50%;
+        }
+      }
+    }
+    &__Navigation-Bar {
+      height: var(--height-top-lg) !important;
+    }
+    &__Brand__Name {
+      font-size: 1.6rem !important;
+    }
+    &__Carousel__Visited {
+      &--slogan {
+        position: absolute;
+        top: 70%;
+        left: 10%;
+      }
+      &__Login-Form {
+        // height: 100%;
+      }
+      &__Ads {
+        & img {
+          width: 75% !important;
+        }
+      }
+    }
+    &__Footer {
+      &__Text-Bottom {
+        font-size: 1.3rem;
+      }
+      &__top {
+        &--background-image {
+          min-height: 400px;
+        }
+      }
+    }
+  }
+  .Contact-Content {
+    height: 400px;
+  }
+}
+@include media-breakpoint-up(xl) {
+  body {
+    font-size: 1.9rem !important;
+    padding-top: var(--height-top-xl) !important;
+  }
+  .Client {
+    &__Form {
+      &__form {
+        &--width {
+          width: 45%;
+        }
+      }
+    }
+    &__Navigation-Bar {
+      height: var(--height-top-xl) !important;
+    }
+    &__Brand__Name {
+      font-size: 2.2rem !important;
+    }
+    &__Carousel__Visited {
+      &--slogan {
+        position: absolute;
+        top: 70%;
+        left: 10%;
+      }
+      &__Login-Form {
+        // height: auto;
+      }
+      &__Ads {
+        & img {
+          width: 100% !important;
+        }
+      }
+    }
+    &__Footer {
+      &__Text-Bottom {
+        font-size: 1.6rem;
+      }
+      &__top {
+        &--background-image {
+          min-height: 500px;
+        }
+      }
+    }
+  }
+  .Contact-Content {
+    height: 500px;
+  }
+}
+@include media-breakpoint-up(xxl) {
+  .Client {
+    &__Form {
+      &__form {
+        &--width {
+          width: 30%;
+        }
+      }
+    }
+  }
+}

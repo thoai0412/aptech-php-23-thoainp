@@ -1,0 +1,27 @@
+.Home-Articles {
+  &__button {
+    &:hover {
+      background-color: var(--dark) !important;
+      border-color: var(--white) !important;
+    }
+  }
+  &__dash {
+    height: 2px;
+  }
+  &__image {
+    height: 250px;
+  }
+  &__text {
+    &::before {
+      content: '';
+      position: absolute;
+      height: 1px;
+      width: 20%;
+      left: 0;
+      right: 0;
+      margin: 0 auto;
+      top: 45px;
+      border-bottom: 3px solid var(--yellow-cz);
+    }
+  }
+}

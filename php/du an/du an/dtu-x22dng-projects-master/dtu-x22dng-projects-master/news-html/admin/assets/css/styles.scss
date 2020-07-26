@@ -1,0 +1,41 @@
+.Admin {
+  height: 100vh !important;
+  padding-top: 72px;
+
+  &__Navigation-Bar {}
+
+  &__Wrapper {
+    &__List {
+      &:hover {
+        background-color: var(--light);
+      }
+
+      & div {
+        width: 100%;
+        border-right: 1px solid #dee2e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+        overflow: hidden;
+      }
+
+      & div:first-child {
+        width: 20%;
+      }
+
+      & div:last-child {
+        width: 35%;
+        border-right: none;
+      }
+
+      &__Header {
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+@media screen and (max-width:767) {}
+
+@media screen and (min-width:768) {}

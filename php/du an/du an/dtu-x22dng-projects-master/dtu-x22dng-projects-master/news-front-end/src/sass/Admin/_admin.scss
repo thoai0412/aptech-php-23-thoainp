@@ -1,0 +1,118 @@
+.Admin {
+  &__Image {
+    &__Preview {
+      &__File {
+        &__Label {
+          &::after {
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+  &__Wrapper {
+    font-size: 1.3rem !important;
+    width: auto;
+    &__List {
+      &:hover {
+        background-color: var(--light);
+      }
+      & div {
+        width: 100%;
+        border-right: 1px solid #dee2e6;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 5px 0;
+        overflow: hidden;
+      }
+      & div:first-child {
+        width: 10%;
+      }
+
+      & div:last-child {
+        width: 150%;
+        border-right: none;
+      }
+      &__Users {
+        & div:last-child {
+          width: 40%;
+          border-right: none;
+        }
+      }
+      &__Post {
+        &--status {
+          width: 50% !important;
+        }
+      }
+      &__Header {
+        font-weight: bold;
+      }
+    }
+    &__Post {
+      &__Form {
+        &__create {
+          &--in {
+            animation: fadeIn 1s;
+          }
+        }
+        &__notice--height {
+          height: 2rem;
+        }
+        &__image {
+          & .figure {
+            width: 200px;
+
+            display: flex;
+            flex-direction: column;
+
+            & img {
+              width: 80%;
+              margin: 0 auto;
+            }
+          }
+        }
+        &__Image {
+          &-Upload {
+            &--height {
+              height: 3rem;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  &__User__Form {
+    &__create {
+      &--in {
+        animation: fadeIn 1s;
+      }
+    }
+    &__notice--height {
+      height: 1rem;
+    }
+  }
+  &__Category__Form {
+    &__create {
+      &--in {
+        animation: fadeIn 1s;
+      }
+    }
+    &__notice--height {
+      height: 1rem;
+    }
+  }
+  &__Navigation-Bar {
+    height: var(--height-top-xl);
+    position: fixed;
+    top: 0;
+    z-index: 101;
+    &__img {
+      &--height {
+        max-height: calc(var(--height-top-xl) - 2vh);
+      }
+    }
+  }
+}

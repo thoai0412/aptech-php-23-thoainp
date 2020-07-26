@@ -1,0 +1,58 @@
+.Admin__Wrapper__Post__Form__create--in {
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.Admin__Wrapper__Post__Form__notice--height {
+  height: 2rem;
+}
+
+.Admin__Wrapper__Post__Form__image .figure {
+  width: 200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.Admin__Wrapper__Post__Form__image .figure img {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.Admin__Wrapper__Post__Form__Image-Upload--height {
+  height: 40px;
+}
+
+.Admin__Wrapper__User__Form__create--in {
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.Admin__Wrapper__User__Form__notice--height {
+  height: 1rem;
+}
+
+.Admin__Wrapper__Category__Form__create--in {
+  -webkit-animation: fadeIn 1s;
+          animation: fadeIn 1s;
+}
+
+.Admin__Wrapper__Category__Form__notice--height {
+  height: 1rem;
+}
+
+.Admin__Navigation-Bar {
+  height: var(--height-top);
+  position: fixed;
+  top: 0;
+  z-index: 101;
+}
+
+.Admin__Navigation-Bar__img--height {
+  max-height: calc(var(--height-top) - 2vh);
+}
+/*# sourceMappingURL=admin.css.map */

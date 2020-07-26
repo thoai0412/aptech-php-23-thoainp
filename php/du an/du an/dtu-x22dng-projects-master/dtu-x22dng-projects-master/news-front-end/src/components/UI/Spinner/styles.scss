@@ -1,0 +1,21 @@
+.loader {
+  &__spinner {
+    height: 20px;
+    width: 20px;
+    background-image: url(../../../assets/images/crashzone-logo.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    margin: 0 auto;
+    animation: 2s spinner ease-in-out infinite;
+    animation-timing-function: linear;
+    position: relative;
+    z-index: 999;
+  }
+}
+
+@keyframes spinner {
+  to {
+    transform: rotate(360deg);
+  }
+}

@@ -1,0 +1,21 @@
+.Admin-Posts-Content {
+  & div:first-child {
+    width: 20%;
+  }
+  & div {
+    width: 100%;
+    border-right: 1px solid #dee2e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
+  }
+  & div:last-child {
+    width: 20%;
+    border-right: none;
+  }
+
+  &__Header {
+    font-weight: bold;
+  }
+}

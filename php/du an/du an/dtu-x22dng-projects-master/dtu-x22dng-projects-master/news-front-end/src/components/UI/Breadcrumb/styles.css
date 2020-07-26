@@ -1,0 +1,10 @@
+.Breadcrumb__list__sort {
+  color: var(--blue);
+  cursor: pointer;
+}
+
+.Breadcrumb__list__sort.active {
+  color: var(--dark);
+  cursor: default;
+}
+/*# sourceMappingURL=styles.css.map */

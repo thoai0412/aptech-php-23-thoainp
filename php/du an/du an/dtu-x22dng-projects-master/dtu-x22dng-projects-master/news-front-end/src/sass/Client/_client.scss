@@ -1,0 +1,287 @@
+.Client {
+  &__Form {
+    z-index: 1200;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5));
+    top: 0;
+    bottom: 0;
+    &__form {
+      &--font-size {
+        font-size: 1.5rem !important;
+      }
+    }
+  }
+  &__Navigation-Bar {
+    &__Button {
+      &:hover {
+        background-color: var(--yellow-cz, yellow) !important;
+        border-color: var(--dark) !important;
+        & i {
+          color: var(--dark) !important;
+        }
+      }
+    }
+    &__list {
+      & button {
+        color: var(--dark) !important;
+
+        &:hover {
+          color: var(--white) !important;
+          border-color: var(--white) !important;
+        }
+      }
+      & li {
+        padding-right: 1rem;
+        padding-left: 1rem;
+        & a {
+          border: 1px solid transparent;
+          &:hover {
+            background-color: var(--yellow-cz) !important;
+            border: 1px solid var(--dark) !important;
+            color: var(--dark) !important;
+          }
+        }
+      }
+    }
+  }
+  &__Brand {
+    &__anchor {
+      &:hover {
+        text-decoration: none;
+        color: var(--black);
+      }
+    }
+    &__img {
+      &--height {
+        max-height: 4.5rem;
+      }
+    }
+  }
+  &__Ribbon {
+    &__button {
+      transform: translate(-50%, -50%);
+      left: 50%;
+      background-color: var(--dark) !important;
+      color: var(--yellow-cz) !important;
+      &:hover {
+        background-color: var(--yellow-cz) !important;
+        color: var(--dark) !important;
+        border-color: var(--dark) !important;
+      }
+    }
+  }
+  &__Articles {
+    &__Read-More {
+      &--font-size {
+        & a {
+          font-size: 1.3rem;
+        }
+      }
+    }
+    &__button {
+      &:hover {
+        background-color: var(--dark) !important;
+        border-color: var(--white) !important;
+      }
+    }
+    &__Dash {
+      height: 2px;
+    }
+    &__image {
+      height: 250px;
+    }
+    &__Text {
+      &::before {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 100%;
+        border-bottom: 3px solid var(--dark);
+      }
+    }
+  }
+  &__Article {
+    &__Preview-Image {
+      width: auto;
+      height: 200px;
+      background-position: center;
+      background-size: cover;
+    }
+  }
+  &__Post {
+    &__Article {
+      &--font-family {
+        & > p > span {
+          font-family: 'Montserrat', sans-serif !important;
+        }
+      }
+      & img {
+        align-self: center;
+        margin: 5px auto;
+        width: 100%;
+      }
+    }
+  }
+  &__Feature {
+    &__Text {
+      &::before {
+        content: '';
+        position: absolute;
+        height: 1px;
+        width: 10%;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        top: 100%;
+        border-bottom: 3px solid var(--dark);
+      }
+    }
+    &__getting-started {
+      &__list {
+        & li {
+          margin-bottom: 1rem;
+        }
+      }
+    }
+    &__list {
+      &__anchor {
+        border-radius: 0 !important;
+        background-color: var(--yellow-cz);
+        color: var(--dark);
+        &:hover {
+          border-color: var(--dark) !important;
+          color: var(--dark);
+        }
+        &.active {
+          background-color: var(--dark) !important;
+          color: var(--white) !important;
+        }
+      }
+    }
+  }
+  &__Footer {
+    bottom: 0;
+    z-index: 9;
+
+    &__top {
+      &__button {
+        background-color: var(--yellow-cz);
+        border-color: var(--dark);
+        &:hover {
+          background-color: var(--dark);
+          color: var(--white);
+          border-color: var(--white);
+        }
+      }
+      &--background-image {
+        width: 100%;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+    }
+    &__middle {
+      &__button {
+        background-color: var(--yellow-cz);
+        border-color: var(--dark);
+        &:hover {
+          background-color: var(--white);
+          color: var(--dark);
+          border-color: var(--dark);
+        }
+      }
+    }
+    &__contact {
+      & p {
+        color: white;
+      }
+    }
+    &__social-network {
+      & i {
+        margin: 0 0.5rem;
+      }
+    }
+  }
+}
+
+.Carousel {
+  &__Visited {
+    &--slogan {
+      position: absolute;
+      top: 70%;
+      left: 10%;
+    }
+  }
+  &__button {
+    &--sign-up {
+      &:hover {
+        background-color: var(--dark) !important;
+        color: var(--white) !important;
+        border-color: var(--white) !important;
+      }
+    }
+    &--learn-more {
+      background-color: var(--dark) !important;
+      &:hover {
+        background-color: var(--yellow-cz) !important;
+        color: var(--dark) !important;
+        border-color: var(--dark) !important;
+      }
+    }
+  }
+  &-incaditors {
+    & li {
+      width: 20px !important;
+      height: 20px !important;
+      border-radius: 999px;
+      background-color: rgba(156, 150, 150, 0.5) !important;
+      &.active {
+        background-color: var(--yellow-cz) !important;
+      }
+    }
+  }
+  &-content {
+    top: 50%;
+    z-index: 9;
+    position: absolute;
+    & h1 {
+      font-size: 7rem;
+    }
+    & h4 {
+      font-size: 2rem;
+    }
+  }
+  &__image {
+    &--height {
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-position: top;
+      background-size: 100%;
+      height: 800px;
+
+      @include media-breakpoint-up(md) {
+        height: 400px;
+      }
+      @include media-breakpoint-up(lg) {
+        height: 600px;
+      }
+    }
+  }
+}
+
+.Banner {
+  &__image {
+    max-height: 800px;
+    object-fit: cover;
+  }
+  &__text {
+    position: absolute !important;
+    z-index: 999;
+    top: 20%;
+    left: 50%;
+  }
+}

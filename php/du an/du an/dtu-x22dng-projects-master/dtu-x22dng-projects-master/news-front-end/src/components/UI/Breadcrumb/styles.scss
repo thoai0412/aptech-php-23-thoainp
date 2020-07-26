@@ -1,0 +1,8 @@
+.Breadcrumb__list__sort {
+  color: var(--blue);
+  cursor: pointer;
+  &.active {
+    color: var(--dark);
+    cursor: default;
+  }
+}
